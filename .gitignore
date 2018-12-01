@@ -1,7 +1,8 @@
- Decent-Engine/
+Decent-Engine
  
- out/
+out/
  
- *.out
- *.o
+*.out
+*.o
+*.swp
  

@@ -97,6 +97,9 @@ bool Grid::clickBlock(uint8_t x, uint8_t y){
 
 void Grid::flagBlock(uint8_t x, uint8_t y){
 	size_t index = x + y * GRID_SIZE;
+	if(x < 0 || x >= GRID_SIZE || y < 0 || y >= GRID_SIZE) return;
+	if(m_blocks[index].clicked || m_blocks[index].flagged) return;
+	m_needsUpdate = true;
 	m_blocks[index].flagged = !m_blocks[index].flagged;
 	if(m_blocks[index].bomb){
 		m_remainingBombs += m_blocks[index].flagged ? -1 : 1;
