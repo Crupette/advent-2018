@@ -9,10 +9,10 @@ SRCFILES	:= $(wildcard $(SRCDIR)*.cpp)
 OBJFILES	:= $(patsubst $(SRCDIR)%.cpp, $(OBJDIR)%.o, $(SRCFILES))
 
 CC		:= g++
-LIBS		:= -lSDL2 -lGLEW -lGL -lSDL2_ttf -ldecent-engine
+LIBS		:= -lSDL2 -lGLEW -lGL -lSDL2_ttf -ldecent-engine -lm
 CPPFLAGS	:= -Wall -std=c++17 -I $(INCDIR) -L $(ENGINEDIR)bin/
 
-OUT		:= Minesweeper.out
+OUT		:= Pong.out
 
 .PHONY: build clean run
 
