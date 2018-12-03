@@ -1,0 +1,2 @@
+all:
+	./Snow-Invaders.out
