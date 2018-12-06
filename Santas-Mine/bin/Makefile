@@ -1,0 +1,2 @@
+all:
+	./Santas-Mine.out
