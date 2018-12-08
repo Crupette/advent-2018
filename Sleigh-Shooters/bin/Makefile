@@ -1,0 +1,2 @@
+all:
+	./Sleigh-Shooters.out
