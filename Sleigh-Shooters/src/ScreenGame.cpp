@@ -30,7 +30,7 @@ void ScreenGame::init(){
 	for(size_t i = 0; i < 15; i++){
 		m_reindeer.emplace_back(glm::vec2(128.f + i * 32, 768.f - 32.f));
 	}
-	glClearColor(0.5f, 0.6f, 0.9f);
+	glClearColor(0.5f, 0.6f, 0.9f, 1.f);
 }
 void ScreenGame::destroy() {
 	fontRenderer.destroy();
