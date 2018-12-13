@@ -1,0 +1,2 @@
+all:
+	./Pika-No.out
