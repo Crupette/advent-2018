@@ -1,0 +1,2 @@
+all:
+	./Bounce.out

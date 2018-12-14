@@ -10,9 +10,9 @@ OBJFILES	:= $(patsubst $(SRCDIR)%.cpp, $(OBJDIR)%.o, $(SRCFILES))
 
 CC		:= g++
 LIBS		:= -lSDL2 -lGLEW -lGL -lSDL2_ttf -ldecent-engine -lm -lSDL2_mixer
-CPPFLAGS	:= -O2 -Wall -std=c++17 -I $(INCDIR) -Llib/
+CPPFLAGS	:= -Wall -std=c++17 -I $(INCDIR) -Llib/
 
-OUT		:= Pika-No.out
+OUT		:= Bounce.out
 
 .PHONY: build clean run
 
