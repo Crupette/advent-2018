@@ -1,0 +1,2 @@
+all:
+	./Santa-Inc.out
