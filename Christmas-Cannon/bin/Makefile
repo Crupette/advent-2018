@@ -1,0 +1,2 @@
+all:
+	./Christmas-Cannon.out
