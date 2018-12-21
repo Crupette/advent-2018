@@ -1,0 +1,2 @@
+all:
+	./Block-Sliders.out
